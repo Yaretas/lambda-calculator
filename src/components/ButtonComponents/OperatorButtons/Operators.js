@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 //import any components needed
-import data from "../../../data.js";
+import data from "../../../data";
 import OperatorButton from "./OperatorButton";
 //Import your array data to from the provided data file
 const operators = data.operators;

@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 
 //import any components needed
-import NumberButton from "./NumberBytton.js";
+import NumberButton from "./NumberButton.js";
 //Import your array data to from the provided data file
-import data from "./../../data.js";
+import data from "../../../data";
 const numbers = data.numbers;
 
 const Numbers = () => {
