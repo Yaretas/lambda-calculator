@@ -4,7 +4,7 @@ import React from "react";
 const NumberButton = props => {
   return (
     <>
-      <button className="Numbers">{props.number}</button>
+      <button onClick={() => {props.setDisplayState(props.number)}} className="Numbers">{props.number}</button>
     </>
   );
 };

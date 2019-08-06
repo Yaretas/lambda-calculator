@@ -28,7 +28,7 @@ function App() {
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <div className="left">
           <Specials />
-          <Numbers />
+          <Numbers setDisplayState={setDisplayState} />
         </div>
 
         <div className="right">

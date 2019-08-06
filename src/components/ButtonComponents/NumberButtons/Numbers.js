@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 //import any components needed
 import NumberButton from "./NumberButton.js";
@@ -6,8 +6,7 @@ import NumberButton from "./NumberButton.js";
 import data from "../../../data";
 const numbers = data.numbers;
 
-const Numbers = () => {
-  const [numberState, setNumberState] = useState(numbers);
+const Numbers = (props) => {
   // STEP 2 - add the imported data to state
   return (
     <div>
@@ -15,7 +14,7 @@ const Numbers = () => {
       component matching the name on the provided file. Pass
        it any props needed by the child component */}
       {numbers.map(numberObj =>{
-        return <NumberButton number={numberObj}/>;
+        return <NumberButton setDisplayState={props.setDisplayState} number={numberObj}/>;
       })
       }
     </div>
