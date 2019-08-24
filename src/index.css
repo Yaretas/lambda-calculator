@@ -10,3 +10,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  margin: 50px;
+  border: 2px solid #515151;
+  background-color: #af1e39;
+  width: 450px;
+  height: auto;
+  border-radius: 12px;
+  padding: 45px;
+}
+
+.display {
+  height: 100px;
+  width: calc(100% - 45px);
+  line-height: 100px;
+  text-align: right;
+  border-radius: 50px;
+  margin: 20px 0 30px;
+  background-color: #323335;
+  color: white;
+  font-size: 2.5rem;
+  padding: 0 15px;
+  border-right: solid 15px rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.right {
+  /* color: white; */
+  padding: 5px;
+  float: right;
+}
+
+.left {
+  /* color: white; */
+  padding: 5px;
+  float: left;
+}
